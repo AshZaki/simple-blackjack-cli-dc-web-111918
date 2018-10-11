@@ -35,6 +35,9 @@ def hit?(num)
   type = get_user_input
   if type == "s"
     return num
+  elsif type == "h"
+    initial_round
+    return num
   end
     
 end

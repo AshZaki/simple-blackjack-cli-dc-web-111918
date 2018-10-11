@@ -33,7 +33,7 @@ end
 def hit?(num)
   prompt_user
   if num == "h"
-    deal_card
+    puts deal_card
     return initial_round
   end
     

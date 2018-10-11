@@ -30,10 +30,10 @@ def initial_round
   return sum
 end
 
-def hit?(type)
+def hit?
   prompt_user
   type = get_user_input
-  return type
+  
 end
 
 def invalid_command

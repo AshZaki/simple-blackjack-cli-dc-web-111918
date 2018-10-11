@@ -33,9 +33,7 @@ end
 def hit?(num)
   prompt_user
   type = get_user_input
-  if type == "h"
-    deal_card
-    num = initial_round
+  if type == "s"
     return num
   end
     

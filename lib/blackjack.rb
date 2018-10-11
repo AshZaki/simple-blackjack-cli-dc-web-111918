@@ -32,10 +32,11 @@ end
 
 def hit?(num)
   prompt_user
-  get_user_input
-  if num == "h"
+  type = get_user_input
+  if type == "h"
     deal_card
-    initial_round
+    num = initial_round
+    return num
   end
     
 end

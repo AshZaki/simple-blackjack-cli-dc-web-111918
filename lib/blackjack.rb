@@ -54,6 +54,7 @@ end
 def runner
   welcome
   initial_round
+  prompt_user
   
 end
     

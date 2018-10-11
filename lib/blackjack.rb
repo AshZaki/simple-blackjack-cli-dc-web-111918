@@ -31,7 +31,6 @@ def initial_round
 end
 
 def hit?(num)
-  display_card_total
   prompt_user
   type = get_user_input
   if type == "s"

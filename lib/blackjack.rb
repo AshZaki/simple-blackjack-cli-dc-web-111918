@@ -37,8 +37,9 @@ def hit?(num)
     return num
   elsif type == "h"
     return num + deal_card
+  else 
+    invalid_command
   end
-    
 end
 
 def invalid_command

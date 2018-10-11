@@ -32,8 +32,8 @@ end
 
 def hit?(num)
   prompt_user
-  type = get_user_input
-  initial_round
+  get_user_input
+
 end
 
 def invalid_command

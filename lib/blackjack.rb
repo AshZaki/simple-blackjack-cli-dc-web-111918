@@ -32,8 +32,8 @@ end
 
 def hit?(num)
   prompt_user
+  num = deal_card
   type = get_user_input
-  if type ==
 end
 
 def invalid_command

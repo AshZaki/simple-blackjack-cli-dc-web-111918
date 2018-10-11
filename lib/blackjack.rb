@@ -33,7 +33,7 @@ end
 def hit?(number)
   prompt_user
   type = get_user_input
- 
+  return type
 end
 
 def invalid_command

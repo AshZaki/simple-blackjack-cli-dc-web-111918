@@ -58,7 +58,5 @@ def runner
   while hit? > 21
     end_game
   end
-  
-    
 end
     

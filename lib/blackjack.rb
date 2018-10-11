@@ -35,7 +35,7 @@ def hit?(num)
   if num == "h"
     deal_card
     return initial_round
-    
+  end
     
 end
 

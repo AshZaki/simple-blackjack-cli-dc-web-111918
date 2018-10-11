@@ -36,7 +36,7 @@ def hit?(num)
   if type == "s"
     return num
   elsif type == "h"
-    num = initial_round
+    deal_card
     return num
   end
     
